@@ -10,7 +10,7 @@ class Tanveer extends Akshit{
 }
 class Taran extends Tanveer{
     void display3(){
-        System.out.println("AMANDEEP SINGH DHIMAN IS SON OF TARANPREET SINGH MEHRA");
+        System.out.println("HARPREET SINGH MAND[MACCHIWARA WALA] IS SON OF TARANPREET SINGH MEHRA");
     }
 }
 class multiinheritance{
