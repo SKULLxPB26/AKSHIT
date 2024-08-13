@@ -1,39 +1,37 @@
 import java.util.Scanner;
 class Bike {
-int x;
- Scanner sc=new Scanner(System.in);
-                                            void hello1(){
+    Scanner sc=new Scanner(System.in);
+ static int x;
+ 
+           void hello1(){
 
-                                                        System.out.println("the price of bike is ");
-                                                        x=sc.nextInt();
+         System.out.println("The price of Bike is ");
+         x=sc.nextInt();
 }
 }
 class Aftercost extends Bike {
-    int y;
+    static int y;
     void hello2(){
 
-        System.out.println("total extra cost  over the bike is");
+        System.out.println("Total extra cost  over the Bike is");
         y=sc.nextInt();
     }
 }
 class Total extends Aftercost {
 
-
     void totalcost(){
-		 int b=x=100;
-    int c=y=200;
-       int a=b+c;
-        System.out.println("total money wasted on bike"+a);
+		
+       int a=x+y;
+        System.out.println("Total money wasted on Bike "+a);
 
     }
 }
 class Costinheritance{
     public static void main(String args[]){
-        Bike b1=new Bike();
-        Aftercost a1=new Aftercost();
+       
         Total t1=new Total();
-        b1.hello1();
-        a1.hello2();
+        t1.hello1();
+        t1.hello2();
         t1.totalcost();
     }
 }
