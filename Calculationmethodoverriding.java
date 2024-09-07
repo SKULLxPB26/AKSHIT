@@ -33,7 +33,8 @@ class Calculationmethodoverriding{
     }
    }
    public static void main(String args[]){
-    multiplication m1=new multiplication();
+       Calculationmethodoverriding c1=new Calculationmethodoverriding();
+    multiplication m1=c1.new multiplication();
     m1.calculation();
    }
 }
