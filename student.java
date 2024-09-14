@@ -4,6 +4,7 @@ import java.util.Scanner;
 interface name
 {
  public void studentname();
+}
 
 
 interface rollno
@@ -48,5 +49,4 @@ public static void main(String[] args) {
         s1.studentrollno();
     }
 
-}
 }
